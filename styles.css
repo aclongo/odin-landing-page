@@ -1,27 +1,33 @@
 body {
     display: flex;
     flex-direction: column;
+    border-style: solid;
     border-color: black;
 }
 
 .header {
     display: flex;
     flex-direction: row;
+    border-style: solid;
     border-color: black;
 }
 
 ul {
     display: flex;
     flex-direction: row;
+    border-style: solid;
+    border-color: black;
 }
 
 .section1 {
     display: flex;
+    border-style: solid;
     border-color: black;
 }
 
 .section2 {
     display: flex;
+    border-style: solid;
     flex-direction: column;
     border-color: black;
 }
@@ -29,20 +35,37 @@ ul {
 .content {
     display: flex;
     flex-direction: row;
+    border-style: solid;
+    border-color: black;
 }
 
 .section3 {
     display: flex;
+    border-style: solid;
+    border-color: black;
+}
+
+.box {
+    border-style: solid;
     border-color: black;
 }
 
 .section4 {
     display: flex;
+    border-style: solid;
+    border-color: black;
+}
+
+.signup-banner {
+    display: flex;
+    flex-direction: row;
+    border-style: solid;
     border-color: black;
 }
 
 .footer {
     display: flex;
+    border-style: solid;
     border-color: black;
 }
 
