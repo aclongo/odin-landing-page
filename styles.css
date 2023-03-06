@@ -25,6 +25,16 @@ ul {
     border-color: black;
 }
 
+.site-description {
+    border-style: solid;
+    border-color: black;
+}
+
+.site-image {
+    border-style: solid;
+    border-color: black;
+}
+
 .section2 {
     display: flex;
     border-style: solid;
