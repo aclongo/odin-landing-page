@@ -9,7 +9,8 @@ body {
 .header {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0 100px;
     align-items: center;
     background-color: #1F2937;
 }
@@ -19,7 +20,8 @@ body {
     color: #F9FAF8;
 }
 
-.links {
+.links,
+.description {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -37,18 +39,33 @@ li {
 
 .section1 {
     display: flex;
-    border-style: solid;
-    border-color: black;
+    background-color: #1F2937;
+    padding: 50px 100px;
+    justify-content: space-between;
 }
 
 .site-description {
-    border-style: solid;
-    border-color: black;
+    max-width: 500px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.button {
+    background-color: #3882F6;
+    width: 100px;
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 10px;
+    text-align: center;
 }
 
 .site-image {
-    border-style: solid;
-    border-color: black;
+    height: auto;
+    width: 400px;
 }
 
 .section2 {
