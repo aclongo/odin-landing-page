@@ -54,6 +54,7 @@ li {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    margin-bottom: 10px;
 }
 
 .button {
@@ -67,7 +68,8 @@ li {
 
 .site-image {
     height: auto;
-    width: 400px;
+    flex-basis: 600px;
+    flex-shrink: 1;
     border-radius: 20px;
 }
 
@@ -93,15 +95,22 @@ li {
 }
 
 .thumbnail {
-    width: 150px;
+    width: 200px;
     height: auto;
     border-style: solid;
     border-radius: 15px;
     border-color: #3882F6;
+    opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.box:hover .thumbnail {
+    opacity: .5;
 }
 
 .box {
-    width: 160px;
+    width: 200px;
 }
 
 .section3 {
