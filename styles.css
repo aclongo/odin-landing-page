@@ -75,6 +75,13 @@ li {
     border-color: black;
 }
 
+.subtitle {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    color: #1F2937;
+}
+
 .content {
     display: flex;
     flex-direction: row;
