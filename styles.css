@@ -115,8 +115,28 @@ li {
 
 .section3 {
     display: flex;
-    border-style: solid;
-    border-color: black;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 50px 300px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+    margin-bottom: 0;
+}
+
+.quote-credit {
+    font-weight: 700;
+    align-self: flex-end;
+    margin-top: 0;
 }
 
 .section4 {
