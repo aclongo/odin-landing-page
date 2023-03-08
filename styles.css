@@ -38,6 +38,10 @@ li {
     list-style: none;
 }
 
+li:hover {
+    color: #3882F6;
+}
+
 .section1 {
     display: flex;
     background-color: #1F2937;
@@ -46,7 +50,7 @@ li {
 }
 
 .site-description {
-    max-width: 450px;
+    width: 450px;
     margin-right: 20px;
 }
 
@@ -66,14 +70,12 @@ li {
     text-align: center;
     color: #F9FAF8;
     font-weight: 700;
-    opacity: 1;
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
     flex-shrink: 0;
 }
 
 .button:hover {
-    opacity: 0.5;
+    background-color: #F9FAF8;
+    color: #3882F6;
 }
 
 .site-image {
@@ -133,6 +135,7 @@ li {
 .quote {
     display: flex;
     flex-direction: column;
+    min-width: 400px;
 }
 
 .quote-text {
@@ -161,6 +164,7 @@ li {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    min-width: 600px;
     padding: 25px 100px;
     background-color: #3882F6;
     border-radius: 10px;
@@ -197,6 +201,10 @@ li {
 a {
     color: white;
     text-decoration: none;
+}
+
+a:hover {
+    color: #3882F6;
 }
 
 
