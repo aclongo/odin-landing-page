@@ -62,8 +62,18 @@ li {
     width: 100px;
     padding: 8px;
     margin-top: 10px;
-    border-radius: 10px;
+    border-radius: 8px;
     text-align: center;
+    color: #F9FAF8;
+    font-weight: 700;
+    opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    flex-shrink: 0;
+}
+
+.button:hover {
+    opacity: 0.5;
 }
 
 .site-image {
@@ -104,7 +114,7 @@ li {
 	transition: .3s ease-in-out;
 }
 
-.box:hover .thumbnail {
+.thumbnail:hover {
     opacity: .5;
 }
 
@@ -157,6 +167,9 @@ li {
     color: #F9FAF8;
 }
 
+.signup-text {
+    margin-right: 20px;
+}
 .call-to-action {
     font-size: 20px;
     font-weight: 600;
@@ -174,9 +187,16 @@ li {
 }
 
 .footer {
-    display: flex;
-    border-style: solid;
-    border-color: black;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
 
 
