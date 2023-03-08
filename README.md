@@ -1,5 +1,6 @@
 # odin-landing-page
-My landing page project for The Odin Project Foundations course
+This is my landing page project for The Odin Project Foundations course.
+For this project I designed a website for a pretend environmental organization called "GladeGuards - dedicated to preserving and restoring the unique ecosystem of Florida's Everglades through education, advocacy, and action."
 
 ## Photo Credits
 Everglades: Photo by <a href="https://unsplash.com/@jahkeeezy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mark Jacquez</a> on <a href="https://unsplash.com/s/photos/everglades?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
