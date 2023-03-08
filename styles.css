@@ -69,7 +69,6 @@ li {
 .site-image {
     height: auto;
     flex-basis: 600px;
-    flex-shrink: 1;
     border-radius: 20px;
 }
 
@@ -141,15 +140,37 @@ li {
 
 .section4 {
     display: flex;
-    border-style: solid;
-    border-color: black;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 175px;
 }
 
 .signup-banner {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 25px 100px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: #F9FAF8;
+}
+
+.call-to-action {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.signup-button {
     border-style: solid;
-    border-color: black;
+    border-color: #F9FAF8;
+    margin-top: 0;
+}
+
+.click-that-button {
+    margin-top: 0;
 }
 
 .footer {
