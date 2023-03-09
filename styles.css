@@ -61,7 +61,7 @@ li:hover {
     margin-bottom: 10px;
 }
 
-.button {
+button {
     background-color: #3882F6;
     width: 100px;
     padding: 8px;
@@ -73,7 +73,7 @@ li:hover {
     flex-shrink: 0;
 }
 
-.button:hover {
+button:hover {
     background-color: #F9FAF8;
     color: #3882F6;
 }
@@ -180,7 +180,7 @@ li:hover {
     margin-bottom: 0;
 }
 
-.signup-button {
+.bottom-button {
     border-style: solid;
     border-color: #F9FAF8;
     margin-top: 0;
